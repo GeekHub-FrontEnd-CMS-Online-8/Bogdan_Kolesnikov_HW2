@@ -1,0 +1,19 @@
+ol {
+  list-style: none;
+  counter-reset: li;
+   }
+ol li:before {
+  counter-increment: li;
+  content: counters(li,".") ". ";
+          }
+h2{
+  align: left; /*я такого свойства не знаю*/
+  display: inline-block;;
+}
+.leftimg {
+  float:left;
+  margin: 4px 10px 2px 0px;
+}
+.centrimg{
+  text-align: center;
+}
